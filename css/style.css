@@ -198,13 +198,13 @@ span {
     content: "Digital Marketer";
   }
   41%, 60% {
-    content: "Blogger";
+    content: "Nature Enthusiast";
   }
   61%, 80% {
     content: "Web Designer";
   }
   81%, 100% {
-    content: "Content creator";
+    content: "Backend Developer";
   }
 }
 @keyframes typing {
