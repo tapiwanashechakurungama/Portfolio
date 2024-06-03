@@ -2,6 +2,18 @@
   font-family: "jost";
   src: url(../fonts/Jost/Jost-VariableFont_wght.ttf);
 }
+.filter {
+  width: 15rem;
+  height: 15rem;
+  background-color: var(--main-color);
+  position: absolute;
+  filter: blur(60px);
+  position: absolute;
+  top: 48rem;
+  left: 45rem;
+  border-radius: 50%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -198,13 +210,13 @@ span {
     content: "Digital Marketer";
   }
   41%, 60% {
-    content: "Nature Enthusiast";
+    content: "Blogger";
   }
   61%, 80% {
     content: "Web Designer";
   }
   81%, 100% {
-    content: "Backend Developer";
+    content: "Content creator";
   }
 }
 @keyframes typing {

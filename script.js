@@ -13,7 +13,7 @@ icon.addEventListener('click', function(event){
 cv.addEventListener('click', function(e){
         event.target.textContent = "Cv Downloaded"
 })
- 
+
 nav.addEventListener("click", function(e){
         navbar.classList.remove('active')
 })
@@ -34,4 +34,3 @@ nav.addEventListener("click", function(e){
 
 // if number1 > number2 :
 //      print('number1 is greater')
-// else print('number2 is greater')
